@@ -1,0 +1,89 @@
+/* confirm.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD477;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+header .back-button {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    display: inline-block;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.confirm-container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.close-button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+header img{
+    width: 24px;
+    height: 24px;
+
+}

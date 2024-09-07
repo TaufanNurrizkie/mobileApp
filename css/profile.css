@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5; /* Light grey background to resemble Shopee's theme */
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.profile-header {
+    background-color: #2FAD91; /* Shopee's primary orange color */
+    padding: 20px;
+    text-align: center;
+    color: #FFF; /* White text for better contrast */
+}
+
+.out {
+    width: 25px;
+    height: 25px;
+    text-align: left;
+}
+
+.profile-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #FFF; /* White border around the profile picture */
+}
+
+
+
+.profile-header h2 {
+    margin: 10px 0 5px 0;
+    color: #FFF;
+}
+
+.profile-header p {
+    margin: 5px 0;
+    color: #FFF;
+}
+
+.profile-menu, .grid-menu {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.profile-menu {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.profile-menu button, .grid-menu button {
+    background-color: #FFF;
+    border: 1px solid #2FAD91; /* Border color matching Shopee's theme */
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black; /* Text color matching Shopee's theme */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.profile-menu button:hover, .grid-menu button:hover {
+    background-color: #ded5d5;
+    color: #FFF;
+}
+
+.profile-menu button img, .grid-menu button img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.grid-menu {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+@media (max-width: 768px) {
+    .profile-menu, .grid-menu {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .profile-menu button, .grid-menu button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-menu, .grid-menu {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .profile-menu button, .grid-menu button {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .profile-header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profile-header h2 {
+        font-size: 18px;
+    }
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #FF5722;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button a:hover {
+    background-color: #E64A19;
+}
+ /* Styling untuk modal */
+ .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:first-of-type {
+    background-color: #d9534f;
+    color: white;
+}
+
+.modal-content button:last-of-type {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.modal-content button:hover {
+    opacity: 0.9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #218838;
+}

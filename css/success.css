@@ -1,0 +1,57 @@
+/* success.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.success-container h1 {
+    color: #2FAD91;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.success-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.success-container a {
+    text-decoration: none;
+}
+
+.success-container button {
+    background-color: #2FAD91;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.success-container button:hover {
+    background-color: #239c7b;
+}
+
+.success-container button:focus {
+    outline: none;
+}

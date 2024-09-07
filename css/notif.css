@@ -1,0 +1,31 @@
+.notification-container {
+    padding: 20px;
+}
+
+.notifications-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notifications-list li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.notifications-list .unread {
+    background-color: #f9f9f9;
+}
+
+.notifications-list .read {
+    background-color: #e0e0e0;
+}
+
+.notifications-list p {
+    margin: 0;
+}
+
+.notifications-list small {
+    color: #666;
+}

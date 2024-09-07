@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD477;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.back-button img{
+    width: 25px;
+    height: 25px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.input-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #2FAD91;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="file"] {
+    padding: 10px 0;
+}
+
+button {
+    background-color: #FFD477;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #E64A19;
+}

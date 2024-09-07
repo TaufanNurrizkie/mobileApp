@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Background color from your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgba(139, 134, 134, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    
+}
+
+.login-header {
+    margin-bottom: 20px;
+}
+
+.cat-icon {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    color: #2FAD91; /* Text color from your image */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2FAD91; /* Label color from your image */
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #B4B4B4; /* Button color from your image */
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #A4A4A4;
+}
+
+.social-login button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    color: #FFF;
+}
+
+.google-btn {
+    background-color: #fff;
+}
+
+.google-btn:hover {
+    background-color: #357AE8;
+}
+
+.apple-btn {
+    background-color: #fff;
+}
+
+.apple-btn:hover {
+    background-color: #333;
+}
+
+.login-footer {
+    margin-top: 20px;
+}
+
+.login-link, .signin-link {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.login-link:hover, .signin-link:hover {
+    text-decoration: underline;
+}
+.text{
+    color: black;
+}
+.active-link {
+    text-decoration: underline;
+    color: #2FAD91; /* Active link color from your image */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Background color from your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signin-container {
+    padding: 20px;
+    background-color: rgba(139, 134, 134, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.signin-header {
+    margin-bottom: 20px;
+}
+
+.dog-icon {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    color: #2FAD91; /* Text color from your image */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2FAD91; /* Label color from your image */
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #B4B4B4; /* Button color from your image */
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: #A4A4A4;
+}
+
+.signin-footer {
+    margin-top: 20px;
+}
+
+.login-link, .signin-link {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px
+}
+
+.login-link:hover, .signin-link:hover {
+    text-decoration: underline;
+}
+
+.active-link {
+    text-decoration: underline;
+    color: #2FAD91; /* Active link color from your image */
+}
